@@ -1,0 +1,65 @@
+:root {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #f8fafc;
+    background-color: #020617;
+  }
+
+  body {
+    background-color: #0f172a;
+    color: #f8fafc;
+  }
+
+  .card,
+  .modalContent {
+    background-color: #1e293b;
+    border-color: #334155;
+  }
+
+  .name,
+  .detailsGrid h3 {
+    color: #e2e8f0;
+  }
+
+  .email,
+  .phone,
+  .detailsGrid p {
+    color: #94a3b8;
+  }
+
+  .searchInput {
+    background-color: #1e293b;
+    color: #e2e8f0;
+  }
+
+  input,
+  textarea,
+  select {
+    color: #000000 !important; /* Força texto preto em todos os inputs */
+  }
+
+  @media (prefers-color-scheme: dark) {
+    input,
+    textarea,
+    select {
+      background-color: #ffffff !important; /* Fundo branco no dark mode */
+    }
+  }
+}
