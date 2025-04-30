@@ -11,7 +11,7 @@ Aplicação React.js para listagem de usuários consumindo a API JSONPlaceholder
 ## Pré-requisitos
 
 - Node.js (v16+)
-- npm (v8+) ou yarn
+- npm (v8+)
 
 ## Instalação
 
